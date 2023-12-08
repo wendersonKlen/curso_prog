@@ -8,7 +8,7 @@ if horas <0:
 
 dia = st.number_input("digite quantas vezes no mes o mesmo é usado")
 if dia <0:
-  st.write("quantidade de dia incoerente")
+  st.write(":red[quantidade de dias incoerente]")
                      
 
 
