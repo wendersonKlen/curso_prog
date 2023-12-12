@@ -11,4 +11,10 @@ if dia <0:
 option = st.selectbox(
     'selecione o seu aparelho',
     ('maquina de lavar ("faz tudo")', 'televisao', 'ar condicionado'))
+
+if option == 'maquina de lavar ("faz tudo")':
+  res = (dia*horas*0.50)
+  st.write(res)
+  
+
                      
