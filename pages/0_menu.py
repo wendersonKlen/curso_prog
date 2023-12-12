@@ -14,7 +14,7 @@ if dia <0:
 
 if option == 'maquina de lavar ("faz tudo")':
   res = (dia*horas*0.50)
-  din = res*0,75
+  din = res*0.75
   
   st.write("o aparalho gastara R$:", din, " reais por mes.")
   
