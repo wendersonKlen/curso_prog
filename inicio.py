@@ -3,19 +3,9 @@ import streamlit as st
 st.header('PindaMob Energy', divider='blue')
 st.image("https://github.com/wendersonKlen/curso_prog/blob/main/image/Capturar.PNG?raw=true")
 
-st.markdown("*Streamlit* is **really** ***cool***.")
-st.markdown('''
-    :red[Streamlit] :orange[can] :green[write] :blue[text] :violet[in]
-    :gray[pretty] :rainbow[colors].''')
-st.markdown("Here's a bouquet &mdash;\
-            :tulip::cherry_blossom::rose::hibiscus::sunflower::blossom:")
-
-multi = '''If you end a line with two spaces,
-a soft return is used for the next line.
-
-Two (or more) newline characters in a row will result in a hard return.
-'''
-st.markdown(multi)
+st.markdown("o site **pindamob** foi criado para ser usado para ajudar a calcular sua conta de luz.")
+st.markdown("para usar ele é bem simples basta clicar em calculadora para valores fixos porem menos preciso")
+st.markdown("ou calculadora personalizada para maior precisaçao")
 
 
 
