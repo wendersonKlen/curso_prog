@@ -1,5 +1,5 @@
 import streamlit as st
-st.write("**atençao** este modo de calculadora usa a media dos aparelhos para fazer o calculo,para mais precisao usar a personalizada")
+st.write("**ATENÇÃO** este modo de calculadora usa a media dos aparelhos para fazer o calculo, para mais precisão usar a personalizada")
 option = st.selectbox(
     'selecione o seu aparelho',
     ('maquina de lavar ("faz tudo")', 'televisao', 'ar condicionado'))
