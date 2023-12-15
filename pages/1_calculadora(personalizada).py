@@ -1,3 +1,5 @@
+import streamlit as st
+
 horas = st.number_input("digite a quantidade de horas usando o aparelho")
 if horas <0:
   st.write(":red[quantidade de horas incoerente]")
