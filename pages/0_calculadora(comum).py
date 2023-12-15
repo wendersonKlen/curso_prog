@@ -13,7 +13,7 @@ if dia <0:
   st.write(":red[quantidade de dias incoerente]")
 
 if option == 'maquina de lavar ("faz tudo")':
-  res = (horas*0.50)*dia
+  res = (horas*800)*dia
   res2= res/1000
   din = res2*0.75
   
