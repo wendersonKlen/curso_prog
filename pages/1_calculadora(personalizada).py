@@ -16,7 +16,8 @@ valor = st.number_input("digite qual o valor da **KWH** em sua cidade ")
 if valor <0:
   st.write(":red[valor incoerente]")
 
-res = (dia*horas*kwh)
-din = res*valor
+res = (horas*kwh)*dia
+res2 = res/1000
+din = res2*valor
   
 st.write("o aparalho gastara R$:", din, " reais por mes.")
