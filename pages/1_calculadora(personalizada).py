@@ -1,6 +1,6 @@
 import streamlit as st
 
-kwh = st.number_input("digite quantos **KWH** o seu aparelho consome ")
+kwh = st.number_input("digite a **POTENCIA** que seu aparelho consome ")
 if kwh <0:
   st.write(":red[consumo incoerente]")
   
